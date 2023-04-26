@@ -23,3 +23,27 @@
   color: #9c9b9e;
   list-style: none;
 }
+
+.weather img {
+  height: 64px;
+  margin-right: 10px;
+  position: relative;
+  top: -20px;
+}
+
+.weather .temperature {
+  font-weight: 700;
+  color: black;
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 10px;
+}
+
+.weather .units {
+  color: black;
+  font-size: 18px;
+  position: relative;
+  top: -34px;
+  line-height: 1;
+  margin-left: 5px;
+}
