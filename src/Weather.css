@@ -24,13 +24,6 @@
   list-style: none;
 }
 
-.weather img {
-  height: 100px;
-  margin-right: 5px;
-  position: relative;
-  top: -20px;
-}
-
 .weather .temperature {
   font-weight: 700;
   color: black;
@@ -45,4 +38,10 @@
   top: -34px;
   line-height: 1;
   margin-left: 5px;
+}
+.weatherInfo-img {
+  height: 100px;
+  margin-right: 5px;
+  position: relative;
+  top: -20px;
 }
