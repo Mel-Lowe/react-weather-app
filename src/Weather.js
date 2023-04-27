@@ -11,7 +11,7 @@ export default function Weather(props) {
       temperature: response.data.temperature.current,
       wind: response.data.wind.speed,
       city: response.data.city,
-      date: "Wednesday 17:00",
+      date: new Date(response.data.time * 1000),
       iconUrl: response.data.condition.icon_url,
       description: response.data.condition.description,
       humidity: response.data.temperature.humidity,
@@ -43,7 +43,7 @@ export default function Weather(props) {
 
         <h1>{weatherData.city}</h1>
         <ul>
-          <li>{weatherData.date}</li>
+          <li>{weatherData.date.getDay()}</li>
           <li className="text-capitalize">{weatherData.description}</li>
         </ul>
 
